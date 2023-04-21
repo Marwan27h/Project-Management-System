@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(https://images3.alphacoders.com/853/85305.jpg) no-repeat
+        center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+.crud {
+    width: 80%;
+    margin: auto;
+}
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+input {
+    width: 98%;
+    height: 40px;
+    background-color: rgb(51, 51, 77);
+    font-size: 20px;
+    padding: 5px 10px;
+    border: none;
+    margin: 4px 0px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    opacity: 0.9;
+}
+input:hover {
+    font-size: 23px;
+    background-color: rgb(36, 36, 63);
+    border: rgb(200, 131, 2) solid 1px;
+}
+.price input {
+    width: 20%;
+}
+#total {
+    background-color: wheat;
+    color: black;
+    padding: 7px 6px;
+    margin-left: 4px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+#total::before {
+    content: "Total:";
+}
+button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    margin-top: 4px;
+    background-color: rgb(21, 23, 36);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 4px;
+    letter-spacing: 0.5;
+    color: white;
+    opacity: 0.8;
+}
+button:hover {
+    background-color: rgb(64, 65, 74);
+    letter-spacing: 0.7px;
+    transform: 0.7;
+}
+.btnSearch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnSearch button {
+    width: 45%;
+}
+table {
+    width: 100%;
+    text-align: center;
+    margin: 11px 0px;
+}
+table th {
+    text-transform: uppercase;
+}
+th,
+td {
+    padding: 5px;
+    font-weight: 500;
+}
+#deleteAll {
+    margin: 30px 0px;
+}
+th {
+    background-color: antiquewhite;
+    color: black;
+    
+    
+}
+td {
+    background-color: rgb(57, 53, 50);
+    border: none;
+    width: 10%;
+    color: ghostwhite;
+    font-weight: 600;
+    
+}
+td:hover {
+    background-color: rgb(43, 40, 37);
+}
